@@ -44,7 +44,6 @@ void InputBox::setSize(sf::Vector2f size)
     box.setSize(size);
     title.setCharacterSize(size.y / 3);
     setTextPosition();
-
 }
 
 void InputBox::setUpText()
@@ -57,7 +56,6 @@ void InputBox::setTextPosition()
 {
     sf::FloatRect o1 = box.getGlobalBounds();
     sf::FloatRect o2 = title.getGlobalBounds();
-
     title.setPosition({o1.left + o1.width/2 - o2.width /2, o1.top + o1.height/2 - o2.height});
 }
 
