@@ -1,6 +1,7 @@
 //
 // Created by Khanh Nguyen on 3/23/23.
 //
+
 #include "InputBox.h"
 
 sf::Font InputBox::font;
